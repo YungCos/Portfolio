@@ -1,0 +1,139 @@
+nav {
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0
+}
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+  
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+  
+nav a:hover {
+    background-color: #fff;
+    color: #222;
+}
+  
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+  
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+footer li {
+    margin: 0 10px;
+}
+  
+footer a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+  
+footer a:hover {
+    color: #00c7b7;
+}
+  
+.hero-image {
+    position: relative;
+    height: 100vh;
+    width: 50%;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+  }
+  
+.hero-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+  
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.hero-text h1 {
+    font-size: 90px;
+    margin-bottom: 20px;
+}
+  
+.hero-text p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+  
+body{
+    margin: 0;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 50%;
+    vertical-align: middle;
+    align-items:center;
+    justify-content:center;
+}
+
+.description p{
+    font-size: 24px;
+    padding: 2rem;
+    margin: 0
+}
