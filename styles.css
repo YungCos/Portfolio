@@ -7,7 +7,9 @@ nav {
     position: absolute;
     top: 0;
     left: 0;
-    right: 0
+    right: 0;
+    font-family: system-ui;
+    
 }
   
 nav ul {
@@ -40,7 +42,7 @@ footer {
     background-color: #222;
     color: #fff;
     padding: 20px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
@@ -100,6 +102,7 @@ footer a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    font-family: system-ui;
 }
   
 .hero-text h1 {
@@ -120,6 +123,9 @@ body{
 main{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    font-family: system-ui;
+    
 }
 
 .description{
@@ -128,12 +134,51 @@ main{
     height: 100vh;
     width: 50%;
     vertical-align: middle;
-    align-items:center;
-    justify-content:center;
+    align-items: center;
+    justify-content: center;
 }
 
 .description p{
     font-size: 24px;
     padding: 2rem;
     margin: 0
+}
+
+h1 {
+    font-size: 3rem;
+    
+}
+
+.languages{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.languages div {
+    border: 1px solid #333;
+    margin: 3px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.15s ease;
+    background: rgb(124,223,238);
+    background: radial-gradient(0deg, rgba(124,223,238,1) 0%, rgba(60,197,199,1) 100%);
+}
+
+.languages div:hover {
+    transform: scale(1.5) rotate(0.01turn);
+    background: rgb(124,196,238);
+    background: radial-gradient(90deg, rgba(124,196,238,1) 0%, rgba(60,160,199,1) 100%);
+}
+
+svg{
+    display: inline-flex;
+    height:1em;
+    width:1em;
+    position: relative;
 }
