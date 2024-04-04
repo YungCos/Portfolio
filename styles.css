@@ -161,9 +161,12 @@ h1 {
     margin-bottom: 100px;
     flex-wrap: wrap;
     justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
 .languages div {
+    border-radius: 5px;
     border: 1px solid #333;
     margin: 3px;
     padding: 5px;
@@ -172,13 +175,12 @@ h1 {
     font-weight: bold;
     text-transform: uppercase;
     transition: 0.15s ease;
-    background: rgb(124,223,238);
     background: radial-gradient(0deg, rgba(124,223,238,1) 0%, rgba(60,197,199,1) 100%);
 }
 
 .languages div:hover {
     transform: scale(1.5) rotate(0.01turn);
-    background: rgb(124,196,238);
+    background: lightgray;
     background: radial-gradient(90deg, rgba(124,196,238,1) 0%, rgba(60,160,199,1) 100%);
 }
 
