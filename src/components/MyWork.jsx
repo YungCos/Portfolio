@@ -60,7 +60,7 @@ const MyWork = () => {
 			className="bg-gradient-to-r from-red-700 via-yellow-700 to-emerald-700 pb-20"
 		>
 			<div className="container mx-auto text-center p-4">
-				<h2 className="text-7xl font-extrabold p-20">My Work</h2>
+				<h2 className="text-7xl font-extrabold p-20">My Projects</h2>
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 					{projects.map((project, index) => (
 						<a href={project.link} key={index}>

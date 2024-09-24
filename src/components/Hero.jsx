@@ -27,11 +27,14 @@ const Hero = () => {
 						Miles Bernstein
 					</h1>
 					<p className="text-4xl mb-6">I am a Software Engineer</p>
-					<div class="inline-flex rounded-md shadow-sm " role="group">
+					<div
+						className="inline-flex rounded-md shadow-sm "
+						role="group"
+					>
 						<a href="https://github.com/YungCos">
 							<button
 								type="button"
-								class="px-4 py-2 font-medium border rounded-s-lg hover:bg-gray-100 hover:text-blue-700 bg-gray-800 border-gray-700 text-white hover:text-white hover:bg-gray-700 ease-out duration-200"
+								className="px-4 py-2 font-medium border rounded-s-lg hover:bg-gray-100 hover:text-blue-700 bg-gray-800 border-gray-700 text-white hover:text-white hover:bg-gray-700 ease-out duration-200"
 							>
 								<Icon name="gh" size={25} color={"#ffffff"} />
 								<span className="pl-3">Github</span>
@@ -40,7 +43,7 @@ const Hero = () => {
 						<a href="https://www.linkedin.com/in/milesbernstein48/">
 							<button
 								type="button"
-								class="px-4 py-2 font-medium border  hover:bg-gray-100 hover:text-blue-700 bg-gray-800 border-gray-700 text-white hover:text-white hover:bg-gray-700 ease-out duration-200"
+								className="px-4 py-2 font-medium border  hover:bg-gray-100 hover:text-blue-700 bg-gray-800 border-gray-700 text-white hover:text-white hover:bg-gray-700 ease-out duration-200"
 							>
 								<Icon
 									name="linkedin"
@@ -53,7 +56,7 @@ const Hero = () => {
 						<a href="src\assets\MilesBernsteinResume.pdf">
 							<button
 								type="button"
-								class="px-4 py-2 font-medium border rounded-e-lg hover:bg-gray-100 hover:text-blue-700 bg-gray-800 border-gray-700 text-white hover:text-white hover:bg-gray-700 ease-out duration-200"
+								className="px-4 py-2 font-medium border rounded-e-lg hover:bg-gray-100 hover:text-blue-700 bg-gray-800 border-gray-700 text-white hover:text-white hover:bg-gray-700 ease-out duration-200"
 							>
 								<Icon
 									name="resume"

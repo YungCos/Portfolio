@@ -9,7 +9,7 @@ function HeroBackground() {
 		canvas.height = window.innerHeight;
 
 		let dots = [];
-		const dotCount = 100;
+		const dotCount = (canvas.width * canvas.height) / 15000;
 		const maxDistance = 150;
 
 		let target = 0;

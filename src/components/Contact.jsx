@@ -19,7 +19,7 @@ const Contact = () => {
 				<a href="mailto:milesbernstein48@gmail.com" className="my-6">
 					<button
 						type="button"
-						class="px-4 py-2 border rounded-lg hover:bg-gray-100 hover:text-blue-700 bg-gray-800 border-gray-700 text-white hover:text-white hover:bg-gray-700 ease-out duration-200"
+						className="px-4 py-2 border rounded-lg hover:bg-gray-100 hover:text-blue-700 bg-gray-800 border-gray-700 text-white hover:text-white hover:bg-gray-700 ease-out duration-200"
 					>
 						Send An Email!
 					</button>
