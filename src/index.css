@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+body{
+  margin: 0;
+}
+
+.screen-height {
+  height: 100vh;
+}
+
+.tilt {
+  display: block;
+  height: 200px;
+  width: 300px;
+  background-color: grey;
+  margin: 0 auto;
+  transition: box-shadow 0.1s, transform 0.1s;
+  
+  /*
+    * Adding image to the background
+    * No relation to the hover effect.
+    */
+  background-image: url(http://unsplash.it/300/200);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.tilt:hover{
+  box-shadow: 0px 0px 30px rgba(0,0,0, 0.6);
+  cursor: pointer;
+}
+
+#hero-bg{
+  position: absolute;
+  z-index: 0;
+}
+
+html { scroll-behavior: smooth; }
+
+[class^="icon-"], [class*=" icon-"] {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.job-card{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.job-card:hover{
+  transform: scale(1.05) translate(0px, -10px);/* Slight zoom effect */
+  box-shadow: 0 16px 16px rgba(0, 0, 0, 0.4); /* Deeper shadow */
+}
+
+.job-card > div::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: scaleY(10%);
+  transform-origin: 0 50%;
+  background: rgb(185,28,28);
+  background: linear-gradient(130deg, rgba(185,28,28,1) 0%, rgba(161,98,7,1) 50%, rgba(4,120,87,1) 100%);
+  transition: transform 0.3s ease; /* Smooth transition for the sweeping effect */
+  border-radius: 8px;
+}
+
+.job-card:hover > div::before {
+  transform: scaleY(100%); /* Slide the background from left to right */
+}
+
+.job-card > img {
+  object-fit: cover;
+  width: 100%;
+  height: 275px;
+}
+
+.half-height{
+  height: 50vh;
+}
+
+
+.color-button{
+  transition: 0.1s ease;
+}
+
+.color-button:hover{
+  background: rgba(17, 24, 39, 0.2);
+}
+
+.color-button:active{
+  background: rgba(17, 24, 39, 0.3);
+}
