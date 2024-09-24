@@ -6,7 +6,7 @@ const About = () => {
 			<div className="container mx-auto flex flex-row ">
 				<div className="hidden md:block md:w-1/3">
 					<img
-						src="src\assets\images\aboutme.jpg" // Replace this with the actual path to Miles' image
+						src="/assets/images/aboutme.jpg" // Replace this with the actual path to Miles' image
 						alt="Miles Bernstein"
 						className="max-w-full h-auto rounded-lg shadow-xl shadow-gray-950"
 						style={{

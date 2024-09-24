@@ -70,7 +70,7 @@ const Hero = () => {
 					className="mt-5 md:mt-0 h-auto max-w-xl up-and-down flex justify-center items-center py-4 "
 				>
 					<img
-						src="src\assets\images\linkedinpfp.png"
+						src="/assets/images/linkedinpfp.png"
 						alt="Miles Bernstein"
 						className="w-1/2 h-1/2 md:w-full md:h-full object-cover rounded-lg shadow-xl"
 					/>

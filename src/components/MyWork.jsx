@@ -4,7 +4,7 @@ const MyWork = () => {
 	const projects = [
 		{
 			link: "https://yourport.tech/",
-			img: "src\\assets\\images\\yourport.png",
+			img: "/assets/images/yourport.png",
 			title: "YourPortfolio",
 			description: `
         A full stack app developped as a team of two.
@@ -13,7 +13,7 @@ const MyWork = () => {
 		},
 		{
 			link: "https://odarling.itch.io/forgotten-city",
-			img: "src\\assets\\images\\forgottencity.png",
+			img: "/assets/images/forgottencity.png",
 			title: "Forgotten City",
 			description: `
         A co-op puzzle platformer game developped
@@ -23,7 +23,7 @@ const MyWork = () => {
 		},
 		{
 			link: "https://yourscope-we.web.app/",
-			img: "src\\assets\\images\\yourscope.png",
+			img: "/assets/images/yourscope.png",
 			title: "YourScope",
 			description: `
        A full stack app developped as a team of five.
@@ -33,21 +33,21 @@ const MyWork = () => {
 		},
 		{
 			link: "https://yungcos.github.io/MonteCarloUTTT/",
-			img: "src\\assets\\images\\uttt.png",
+			img: "/assets/images/uttt.png",
 			title: "Ultimate Tic Tac Toe",
 			description: `
         A web-based implementation of ultimate tic tac toe, with singleplayer and local multiplayer. Developed and optimized an AI for ultimate tic tac toe using Monte Carlo tree search`,
 		},
 		{
 			link: "https://github.com/YungCos/UTSC-Seat-Sonar",
-			img: "src\\assets\\images\\seatsonar.png",
+			img: "/assets/images/seatsonar.png",
 			title: "Seat Sonar",
 			description: `
         Discord bot developped using discord.py, which notifies you when a seat is availble for a tutorial. Seat Sonar uses a webscraper to check when a seat is avilable`,
 		},
 		{
 			link: "https://github.com/YungCos/Python-War-Game/blob/main/main.py",
-			img: "src\\assets\\images\\war.png",
+			img: "/assets/images/war.png",
 			title: "War Card Game",
 			description: `
         Python implementation of the classic card game "War" with a graphical user interface (GUI) built using Tkinter. Served as the final project for ICS4U`,

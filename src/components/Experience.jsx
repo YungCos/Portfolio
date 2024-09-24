@@ -4,7 +4,7 @@ import Skills from "./Skills";
 const Experience = () => {
 	const jobs = [
 		{
-			logo: "src\\assets\\images\\thescore.png",
+			logo: "/assets/images/thescore.png",
 			role: "Software Developer Co-Op",
 			company: "theScore",
 			dates: "Sep 2024 - Present",
@@ -13,7 +13,7 @@ const Experience = () => {
 			],
 		},
 		{
-			logo: "src\\assets\\images\\tribalscale.jfif",
+			logo: "/assets/images/tribalscale.jfif",
 			role: "Agile Software Engineer Co-Op",
 			company: "TribalScale",
 			dates: "Jan 2024 - Apr 2024",
@@ -24,7 +24,7 @@ const Experience = () => {
 			],
 		},
 		{
-			logo: "src\\assets\\images\\dbrsmorningstar.jfif",
+			logo: "/assets/images/dbrsmorningstar.jfif",
 			role: "Software Engineer Co-Op",
 			company: "DBRS Morningstar",
 			dates: "Jan 2023 - Apr 2023",
@@ -36,7 +36,7 @@ const Experience = () => {
 			],
 		},
 		{
-			logo: "src\\assets\\images\\alphacoding.jfif",
+			logo: "/assets/images/alphacoding.jfif",
 			role: "Coding Instructor",
 			company: "Alpha Coding",
 			dates: "Mar 2022 - Jan 2023",
