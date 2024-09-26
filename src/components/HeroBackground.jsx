@@ -38,9 +38,7 @@ function HeroBackground() {
 					Math.PI * 2,
 					false
 				);
-				ctx.fillStyle = "white";
-				ctx.shadowBlur = 3;
-				ctx.shadowColor = "white";
+				ctx.fillStyle = "rgba(255, 255, 255, 0.6 )";
 				ctx.fill();
 				ctx.closePath();
 			}

@@ -3,22 +3,8 @@ import HeroBackground from "./HeroBackground";
 import Icon from "./Icon";
 
 const Hero = () => {
-	useEffect(() => {
-		let el = document.getElementById("pfp-image");
-		el.style.transform = `perspective(500px) scale(1.2) rotateX(${0}deg) rotateY(${0}deg)`;
-		document.addEventListener("mousemove", (e) => {
-			const xVal = e.screenX;
-			const yVal = e.screenY;
-
-			const yRotation = xVal / 260;
-			const xRotation = -yVal / 260;
-
-			el.style.transform = `perspective(500px) scale(1.2) rotateX(${xRotation}deg) rotateY(${yRotation}deg)`;
-		});
-	});
-
 	return (
-		<section className="bg-gradient-to-r from-red-700 via-yellow-700 to-emerald-700 text-white h-screen flex items-center justify-center">
+		<section className="text-white h-screen flex items-center justify-center">
 			<HeroBackground />
 			<div className="container mx-auto flex flex-col md:flex-row items-center md:space-x-8 px-4 z-10">
 				<div className="text-center md:text-left md:flex-1">

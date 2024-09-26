@@ -50,7 +50,7 @@ const Experience = () => {
 	return (
 		<section id="experience" className="py-20 bg-gray-900">
 			<div className="container mx-auto text-center">
-				<h2 className="text-7xl font-extrabold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-red-700 via-yellow-700 to-emerald-700">
+				<h2 className="text-7xl font-extrabold mb-8">
 					Work Experience
 				</h2>
 				<div className="container mx-auto flex flex-row justify-center">

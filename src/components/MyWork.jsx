@@ -55,10 +55,7 @@ const MyWork = () => {
 	];
 
 	return (
-		<section
-			id="work"
-			className="bg-gradient-to-r from-red-700 via-yellow-700 to-emerald-700 pb-20"
-		>
+		<section id="work" className="bg-gray-900 pb-20">
 			<div className="container mx-auto text-center p-4">
 				<h2 className="text-7xl font-extrabold p-20">My Projects</h2>
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -74,7 +71,7 @@ const MyWork = () => {
 									<h5 className="mb-2 text-2xl font-bold tracking-tight">
 										{project.title}
 									</h5>
-									<p className="mb-3 font-normal text-gray-700 dark:text-gray-300">
+									<p className="mb-3 font-normal">
 										{project.description}
 									</p>
 								</div>

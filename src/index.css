@@ -56,6 +56,8 @@ body{
 #hero-bg{
   position: absolute;
   z-index: 0;
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(33,55,101,1) 50%, rgba(81,123,139,1) 100%);
 }
 
 html { scroll-behavior: smooth; overflow-x: hidden;}
@@ -66,10 +68,12 @@ html { scroll-behavior: smooth; overflow-x: hidden;}
 }
 
 .job-card{
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: rgb(203 213 225);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
 }
 
 .job-card:hover{
+  color: rgb(30 41 59);
   transform: scale(1.05) translate(0px, -10px);/* Slight zoom effect */
   box-shadow: 0 16px 16px rgba(0, 0, 0, 0.4); /* Deeper shadow */
 }
@@ -84,8 +88,7 @@ html { scroll-behavior: smooth; overflow-x: hidden;}
   bottom: 0;
   transform: scaleY(10%);
   transform-origin: 0 50%;
-  background: rgb(185,28,28);
-  background: linear-gradient(130deg, rgba(185,28,28,1) 0%, rgba(161,98,7,1) 50%, rgba(4,120,87,1) 100%);
+  background: rgb(255, 255, 255);
   transition: transform 0.3s ease; /* Smooth transition for the sweeping effect */
   border-radius: 8px;
 }

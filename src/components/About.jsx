@@ -16,9 +16,7 @@ const About = () => {
 				</div>
 				<div className="md:w-2/3 max-w-screen-lg items-start md:space-x-16 px-4">
 					{/* Left Section - About Text */}
-					<h2 className="text-7xl font-extrabold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-red-700 via-yellow-700 to-emerald-700">
-						About Me
-					</h2>
+					<h2 className="text-7xl font-extrabold mb-8 ">About Me</h2>
 					<p className="text-lg mb-6 p-6 leading-relaxed tracking-wide text-left">
 						Hi there! My name is Miles, and I'm currently a computer
 						science student at the University of Toronto Scarborough
