@@ -39,7 +39,7 @@ const Hero = () => {
 								<span className="pl-3">LinkedIn</span>{" "}
 							</button>
 						</a>
-						<a href="src\assets\MilesBernsteinResume.pdf">
+						<a href="assets\MilesBernsteinResume.pdf">
 							<button
 								type="button"
 								className="px-4 py-2 font-medium border rounded-e-lg hover:bg-gray-100 hover:text-blue-700 bg-gray-800 border-gray-700 text-white hover:text-white hover:bg-gray-700 ease-out duration-200"
