@@ -68,12 +68,11 @@ html { scroll-behavior: smooth; overflow-x: hidden;}
 }
 
 .job-card{
-  color: rgb(203 213 225);
   transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
 }
 
 .job-card:hover{
-  color: rgb(30 41 59);
+  color: rgb(255, 255, 255);
   transform: scale(1.05) translate(0px, -10px);/* Slight zoom effect */
   box-shadow: 0 16px 16px rgba(0, 0, 0, 0.4); /* Deeper shadow */
 }
@@ -88,7 +87,7 @@ html { scroll-behavior: smooth; overflow-x: hidden;}
   bottom: 0;
   transform: scaleY(10%);
   transform-origin: 0 50%;
-  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.1);
   transition: transform 0.3s ease; /* Smooth transition for the sweeping effect */
   border-radius: 8px;
 }
@@ -118,4 +117,15 @@ html { scroll-behavior: smooth; overflow-x: hidden;}
 
 .color-button:active{
   background: rgba(17, 24, 39, 0.3);
+}
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
 }

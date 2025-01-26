@@ -7,9 +7,11 @@ const Experience = () => {
 			logo: "/assets/images/thescore.png",
 			role: "Software Developer Co-Op",
 			company: "theScore",
-			dates: "Sep 2024 - Present",
+			dates: "Sep 2024 - Dec 2024",
 			description: [
-				"Using Elixir and Pheonix LiveView to build internal applications for theScore Bet and ESPN bet",
+				"Used Elixir and Pheonix LiveView to build internal software for theScore Bet and ESPN bet, serving over 4.3 million users.",
+				"Delivered features on the front-end and back-end,  built unit-tests to ensure the app remains stable and resilient to future development",
+				"Developed deployment pipelines to monitor unit testing, allowing the team to monitor 50+ flakey tests",
 			],
 		},
 		{
@@ -31,7 +33,6 @@ const Experience = () => {
 			description: [
 				"Collaborated with developers from around the world to engineer and maintain credit rating software",
 				"Developed and maintained various APIs and microservices to enhance performance and load times by 50%",
-				"Optimized a web application by fixing bugs and eliminating redundancy",
 				"Managed with live SQL databases to ensure queries are efficient and data is integrated correctly",
 			],
 		},
