@@ -3,7 +3,7 @@ import React from "react";
 const MyWork = () => {
 	const projects = [
 		{
-			link: "https://yourport.tech/",
+			link: "https://www.youtube.com/watch?v=3N4g8nXutdE",
 			img: "/assets/images/yourport.png",
 			title: "YourPortfolio",
 			description: `
